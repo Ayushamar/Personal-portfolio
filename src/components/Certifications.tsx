@@ -104,11 +104,6 @@ const Certifications = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {/* No certifications to display. Add new certifications here as needed. */}
-          {certifications.length === 0 && (
-            <div className="col-span-full text-center text-foreground/50 py-8">
-              No certifications to display.
-            </div>
-          )}
         </div>
       </div>
     </section>

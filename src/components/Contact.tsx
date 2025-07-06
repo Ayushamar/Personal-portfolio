@@ -139,7 +139,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/theayushamar/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"
@@ -150,7 +150,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/Ayushamar"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400"

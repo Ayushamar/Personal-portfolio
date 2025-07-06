@@ -25,7 +25,7 @@ const projects = [
       "Integrated Twilio for OTP-based SMS verification.",
     ],
     links: {
-      demo: undefined,
+      demo: "https://wholesome-dedication-production.up.railway.app/",
       code: undefined,
     },
   },
@@ -50,7 +50,7 @@ const projects = [
       "Fully decentralized with no traditional backend.",
     ],
     links: {
-      demo: undefined,
+      demo: "https://de-share-rust.vercel.app/",
       code: undefined,
     },
   },
@@ -112,30 +112,26 @@ const Projects = () => {
                   </li>
                 ))}
               </ul>
-              {(project.links.demo || project.links.code) && (
-                <div className="mt-auto flex gap-3 pt-2">
-                  {project.links.demo && (
-                    <a
-                      href={project.links.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg font-medium shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
-                    >
-                      Live Demo
-                    </a>
-                  )}
-                  {project.links.code && (
-                    <a
-                      href={project.links.code}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg font-medium shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 transition"
-                    >
-                      Source Code
-                    </a>
-                  )}
-                </div>
-              )}
+              <div className="mt-auto flex gap-3 pt-2">
+                <a
+                  href={project.links.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-green-700 text-white rounded-lg font-medium shadow hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-400 transition"
+                >
+                  View Live
+                </a>
+                {project.links.code && (
+                  <a
+                    href={project.links.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg font-medium shadow hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-400 transition"
+                  >
+                    Source Code
+                  </a>
+                )}
+              </div>
             </article>
           ))}
         </div>

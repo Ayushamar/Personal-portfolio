@@ -83,6 +83,15 @@ const Skills = () => (
         ))}
       </div>
     </div>
+    <div className="mt-12 text-center">
+      <blockquote
+        className="italic text-lg border-l-4 border-blueAccent pl-6 max-w-2xl mx-auto"
+        style={{ color: "#0A4D0A" }}
+      >
+        “The pursuit of new skills is a lifelong journey I never intend to
+        pause.”
+      </blockquote>
+    </div>
   </section>
 );
 

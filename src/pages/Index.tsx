@@ -45,7 +45,21 @@ const Index = () => {
       <Education />
       <Skills />
       <Projects />
+      <div className="max-w-3xl mx-auto my-12 text-center">
+        <blockquote className="italic text-xl" style={{ color: "#0A4D0A" }}>
+          “Projects aren't going to stop — because where a problem is felt, a
+          solution will be developed. I believe in building with purpose,
+          solving real-life challenges through thoughtful code and impactful
+          technology.”
+        </blockquote>
+      </div>
       <Certifications />
+      <div className="max-w-3xl mx-auto my-12 text-center">
+        <blockquote className="italic text-xl" style={{ color: "#0A4D0A" }}>
+          “Certifications are valuable, but their true worth lies in how well
+          they're applied. I believe in turning knowledge into action.”
+        </blockquote>
+      </div>
       <Resume />
       <Contact />
       <Footer />
