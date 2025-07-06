@@ -1,17 +1,15 @@
-
-import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 const navigation = [
-  { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Certifications', href: '#certifications' },
-  { name: 'Coding', href: '#coding' },
-  { name: 'Experience', href: '#experience' },
-  { name: 'Resume', href: '#resume' },
-  { name: 'Contact', href: '#contact' },
-  { name: 'Blog', href: '#blog' },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Education", href: "#education" },
+  { name: "Projects", href: "#projects" },
+  { name: "Certifications", href: "#certifications" },
+  { name: "Resume", href: "#resume" },
+  { name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -27,9 +25,9 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -37,8 +35,8 @@ const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white bg-opacity-90 backdrop-blur-sm shadow-sm py-2'
-          : 'bg-transparent py-4'
+          ? "bg-white bg-opacity-90 backdrop-blur-sm shadow-sm py-2"
+          : "bg-transparent py-4"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">

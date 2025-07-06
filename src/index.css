@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -60,28 +59,28 @@
   .btn {
     @apply inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
   }
-  
+
   .btn-primary {
     @apply bg-blueAccent text-foreground hover:bg-lightBlue;
   }
-  
+
   .btn-outline {
     @apply border border-blueAccent bg-transparent hover:bg-blueAccent/10 text-foreground;
   }
-  
+
   .section-title {
     @apply text-3xl md:text-4xl font-bold mb-6 relative inline-block;
   }
-  
+
   .section-title::after {
-    content: '';
+    content: "";
     @apply absolute bottom-0 left-0 w-1/2 h-1 bg-blueAccent rounded-full;
   }
-  
+
   .card {
     @apply bg-white rounded-2xl p-6 shadow-md transition-all duration-300;
   }
-  
+
   .card-hover {
     @apply hover:shadow-lg hover:-translate-y-1 transition-all duration-300;
   }
@@ -89,20 +88,20 @@
   .link-underline {
     @apply relative;
   }
-  
+
   .link-underline::after {
-    content: '';
+    content: "";
     @apply absolute left-0 bottom-0 w-0 h-0.5 bg-blueAccent transition-all duration-300;
   }
-  
+
   .link-underline:hover::after {
     @apply w-full;
   }
-  
+
   .nav-link {
     @apply px-4 py-2 text-foreground/80 hover:text-foreground transition-colors;
   }
-  
+
   .nav-link.active {
     @apply text-foreground font-medium;
   }
@@ -110,9 +109,9 @@
   .timeline-item {
     @apply relative pl-8 pb-8 border-l border-blueAccent/50 last:border-l-0;
   }
-  
+
   .timeline-item::before {
-    content: '';
+    content: "";
     @apply absolute left-[-8px] top-0 w-4 h-4 rounded-full bg-blueAccent;
   }
 }

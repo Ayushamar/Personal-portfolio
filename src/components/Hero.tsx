@@ -58,11 +58,11 @@ const Hero = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative animate-fade-in">
               {/* Profile Image */}
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-float">
+              <div className="w-96 h-96 md:w-[28rem] md:h-[28rem] overflow-hidden border-4 border-white shadow-xl animate-float rounded-full flex items-center justify-center bg-gray-100">
                 <img
-                  src="/placeholder.svg"
+                  src="/MyPhoto.jpg"
                   alt="Ayush Kumar Amar"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               {/* Background decoration */}
